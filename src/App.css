@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: gilroy;
+}
+
+
+/* ---------------------------------------------nav */
+
+.nav-right{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menubtn{
+  display: none;
+  padding: 10px;
+  background: none;
+  border: 1px solid #198754;
+}
+
+.nav-element1::after{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    height: 6px;
+    width: 0%;
+    left: 0;
+    background-color: #198754;
+    transition: 0.3s;
+    transition-timing-function: ease-out;
+    transform: scaleX(0);
+    transform-origin: 0;
+}
+  
+.nav-element1 {
+    position: relative;
+    background-color: #fff;
+    transition: background-color 0.3s;
+}
+
+
+.nav-element1:hover::after{
+    transform: scaleX(1);
+    background-color: #198754;
+    width: 100%;
+}
+  
+
+
+/* -----------------------------------------home */
+
+
+.section1-home{
+    min-height: 32vmax;
+    min-width: 25vmax;
+    transition: transform 1s;
+
+}
+
+.section1-home-skew{
+    transform: skewX(9deg);
+}
+
+
+.socialhandle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.professionalhandle{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.homepage{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.homepage-section-2{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.homepage-section-2-p{
+  width: 75%;
+}
+
+.homepage-experience-section{
+  display: flex;
+}
+
+
+.imgpostion{
+  object-fit: cover;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+
+
+}
+
+.section1-home:hover{
+  transform: scale(1.1);
+}
+/* --------------------------------about */
+
+
+
+.circle{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: relative;
+  transition: transform .2s;
+  cursor: pointer;
+}
+.circle>img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.bigCircle{
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) rotate(20);
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-left: 2px solid #198754;
+  border-right: 2px solid #198754;
+  border-radius: 50%;
+  animation:  rotation 5s infinite alternate;
+}
+
+.About-para-section{
+  width: 50%;
+  
+}
+.About-divided-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.About-marginLeft{
+  margin-left: 30px;
+}
+.About-marginRight{
+  margin-right: 30px;
+}
+
+
+
+
+.rectangle{
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform .2s;
+  cursor: pointer;
+}
+
+.rectangle>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.rectangle:hover {
+  transform: scale(1.1);
+}
+
+.circle:hover {
+  transform: scale(1.1);
+}
+
+/* ---------------------------------------------project */
+
+.grhamstaysimg{
+  width: 400px;
+  height: 300px;
+  position: relative;
+  background-image: url(../public/grhamStays.png);
+  background-position: center;
+  background-size: cover;
+  transition: transform 1s;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+
+.grhamstaysdiv{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  transform: translate(56%,-42%);
+  width: 400px;
+  height: 300px;
+}
+
+.grhamstaysimgOuterleft{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: -4%;
+  left: -4%;
+  z-index: -1;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-top-left-radius: 10px;
+  transform-origin: top 0%;
+  background-color: #198754;
+}
+
+.grhamstaysimgOuterright{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: -4%;
+  right: -4%;
+  z-index: -1;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 10px;
+  transform-origin: top 0%;
+  background-color: rgb(108, 117, 125);
+}
+
+.grhamstaysimg:hover{
+transform: scale(1.1);
+}
+
+
+.MovieDatabaseimg{
+  width: 400px;
+  height: 300px;
+  position: relative;
+  background-image: url(../public/MovieDatabase.png);
+  background-position: center;
+  background-size: cover;
+  transition: transform 1s;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+
+.MovieDatabaseimg:hover{
+  transform: scale(1.1);
+}
+
+  
+.templateProjectimg{
+  width: 400px;
+  height: 300px;
+  position: relative;
+  background-image: url(../public/templateProject.png);
+  background-position: center;
+  background-size: cover;
+  transition: transform 1s;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+  
+
+.templateProjectimg:hover{
+  transform: scale(1.1);
+}
+
+ .Floraflaternityimg{
+  width: 400px;
+  height: 300px;
+  position: relative;
+  background-image: url(../public/FloraFlaternity.png);
+  background-position: center;
+  background-size: cover;
+  transition: transform 1s;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+    }
+    
+  
+  .Floraflaternityimg:hover{
+   transform: scale(1.1);
+  }
+
+  .wecreateProjectimg{
+   width: 400px;
+   height: 300px;
+   position: relative;
+   background-image: url(../public/wecreate.png);
+   background-position: center;
+   background-size: cover;
+   transition: transform 1s;
+   border-top-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   cursor: pointer;
+  }   
+      
+  
+  .wecreateProjectimg:hover{
+     transform: scale(1.1);
+  }
+
+  .EmiCalculatorimg{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    background-image: url(../public/Emi-calculator.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 1s;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+   }
+   .EmiCalculatorimg:hover{
+    transform: scale(1.1);
+  }
+
+  .QrCodegeneratorimg{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    background-image: url(../public/QrCode_generator.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 1s;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+   }
+   .QrCodegeneratorimg:hover{
+    transform: scale(1.1);
+  }
+
+  .digiroitwebsiteProjectimg{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    background-image: url(../public/digiroitwebsite.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 1s;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+   }
+   .digiroitwebsiteProjectimg:hover{
+    transform: scale(1.1);
+  }
+  
+   
+
+
+
+@keyframes rotation {
+
+0%{
+     transform:  translate(-50%,-50%) rotate(10deg);
+}
+100%{
+  transform:  translate(-50%,-50%) rotate(330deg);
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+  .col-md-12{
+    display: flex;
+    flex-direction: column;
+  }
+  .socialhandle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+  }
+  .professionalhandle{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  
+  .homepage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 20vmax;
+ }
+
+ .homepage-section-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 20vmax;
+ }
+
+ .homepage-section-2-p{
+   width:100%; 
+ }
+
+ .homepage-experience-section{
+   display: flex;
+   flex-direction: column;
+ }
+
+/*  ----------------------------------------nav    */
+.nav-right{
+  display: none;
+ 
+}
+.menubtn{
+  display: initial;
+}
+
+/* ----------------------------------------about */
+
+.About-para-section{
+  width:100%;
+  margin-top: 20px;
+}
+
+.About-divided-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.About-marginTop{
+  margin-top: 50px;
+}
+
+.About-marginBottom{
+  margin-bottom: 50px;
+}
+.About-marginLeft{
+  margin-left: 0px;
+}
+.About-marginRight{
+  margin-right: 0px;
+}
+.grhamstaysdiv{
+  display: none;
+}
+
+
+}
