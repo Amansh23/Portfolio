@@ -10,24 +10,10 @@ const Carrier = () => {
 
   return (
     <div className='col-md-12  '>
-    <div className='col-md-12  p-5 d-flex  align-items-center justify-content-between'>
-       <div className='circle About-marginTop mt-5 About-marginLeft shadow'>
-         <img src='/Digiroit Technologies.png ' alt='Digiroit Technologies'></img>
-         <div className='bigCircle'></div>
-       </div>
-       <div className='About-para-section About-marginTop'>
-         <h3 className='text-success mt-5'>Professional Experience</h3>
-         <h5 className='text-success mt-2'><span className='text-secondary'>Current Position -</span> FullStack Developer (Oct 2023 - Present)</h5>
-         <h6 className='text-success mt-2'><span className='text-secondary'>Company: -</span> Digiroit Technologies Pvt Ltd</h6>   
-         <Link className='text-decoration-none' onClick={websiteopenerDigiroit}><h6  className='text-success mt-2 cursor-pointer'><span className='text-secondary'>Website: -</span>https://www.digiroit.com/</h6> </Link>
-         <p className='text-secondary'>
-         In my role as a FullStack Developer at Digiroit Technologies Pvt Ltd, I am at the forefront of innovation and technology. Working in a dynamic and forward-thinking environment, I have the privilege of contributing to cutting-edge projects that drive digital transformation. As a FullStack Developer at Digiroit Technologies, my responsibilities span both the front-end and back-end of web and application development. I work collaboratively with a talented team of professionals to create seamless and user-friendly digital experiences.
-         </p>  
-       </div>
-    </div>
     <div className='col-md-12 mt-5 p-5 d-flex  align-items-center justify-content-between'>
        <div className='About-para-section About-marginBottom'>
-         <h5 className='text-success mt-2'> FullStack Developer Trainee (Aug 2023 - Oct 2023)</h5>
+       <h3 className='text-success mt-5'>Professional Experience</h3>
+         <h5 className='text-success mt-2'> FullStack Developer Trainee (Aug 2023 - November 2023)</h5>
          <h6 className='text-success mt-2'><span className='text-secondary'>Company: -</span> Digiroit Technologies Pvt Ltd</h6>   
          <Link className='text-decoration-none' onClick={websiteopenerDigiroit}><h6  className='text-success mt-2 cursor-pointer'><span className='text-secondary'>Website: -</span>https://www.digiroit.com/</h6> </Link>
          <p className='text-secondary'>
@@ -46,7 +32,7 @@ const Carrier = () => {
         </p>
         <div className='d-flex mt-5 About-divided-section About-marginLeft'>
             <div className='circle  shadow'>
-            <img className=' rounded-2' src='https://i.pinimg.com/564x/b4/b5/89/b4b5896538117f24c5fae6315fcea3f1.jpg' alt='Mern'></img>
+            <img className=' rounded-2' src='/techcover.jpg' alt='Mern'></img>
                 <div className='bigCircle'></div>
             </div>
             <div className='About-para-section About-marginTop'>
@@ -72,7 +58,7 @@ const Carrier = () => {
     </div>
     <div className='col-md-12 mt-5 p-5 d-flex  align-items-center justify-content-between'>
             <div className='circle About-marginBottom  About-marginLeft shadow'>
-            <img src='https://i.pinimg.com/564x/85/4f/01/854f01eba6690005cc9643aba275ca23.jpg' alt='UI/UX'></img>           
+            <img src='/covercarrier.jpg' alt='UI/UX'></img>           
                         <div className='bigCircle'></div>
             </div>
             <div className='About-para-section About-marginTop'>
@@ -90,7 +76,7 @@ const Carrier = () => {
                 </p>  
            </div>
            <div className='circle About-marginTop About-marginRight shadow'>
-           <img src=' https://i.pinimg.com/564x/2e/5b/96/2e5b967d3d086abeb0065c98311123d2.jpg' alt='UI/UX'></img>
+           <img src='/rotationcover.jpg' alt='UI/UX'></img>
                 <div className='bigCircle'></div>
             </div>       
     </div>
@@ -103,7 +89,7 @@ const Carrier = () => {
     </div>
     <div className='col-md-12 mt-5 p-5 About-divided-section'>
             <div className='circle About-marginBottom About-marginLeft shadow'>
-            <img src=' https://i.pinimg.com/564x/8c/0f/f1/8c0ff1f1cfa11b1c0e61d8cda2cac204.jpg' alt='UI/UX'></img>
+            <img src='/lastcover.jpg' alt='UI/UX'></img>
                 <div className='bigCircle'></div>
             </div>  
             <div className='About-para-section About-marginTop'>

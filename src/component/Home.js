@@ -100,8 +100,8 @@ const EmiCalculatorProject = () => {
 
   return (
     <div className='d-flex flex-column align-items-center'>
-    <div className='col-md-12 p-5 homepage'>
-        <div className=' p-2 About-marginBottom section1-home position-relative  '>
+    <div className='col-md-11 mt-3  homepage'>
+        <div className='  About-marginBottom section1-home position-relative  '>
             <div className='w-25 h-100 bg-secondary shadow rounded-start-4'>
               <div className='w-100 h-100 bg-secondary ms-5 section1-home-skew'></div>
             </div>
@@ -138,9 +138,9 @@ const EmiCalculatorProject = () => {
               
          </div>
     </div>
-    <div className='col-md-12 w-100 h-100 p-5 d-flex flex-column align-items-center '>
+    <div className='col-md-11  h-100  d-flex flex-column align-items-center '>
       <h2 className='text-success fw-bold'>About ME</h2>
-      <div className='col-md-12 w-100 p-2 ms-4 d-flex align-items-center justify-content-between mt-5'>
+      <div className='col-md-12 w-100  ms-4 d-flex align-items-center justify-content-between mt-5'>
             <div>
               <h4 className='d-flex align-items-center '>Personal information <span className='fs-6 mt-1 ms-3'><i class="bi bi-info-circle-fill"></i></span> </h4>
               <div className='homepage-experience-section mt-5 '>
@@ -159,44 +159,44 @@ const EmiCalculatorProject = () => {
                 </div>
               </div>
             </div>
-            <div className='p-5'>
+            <div className='About-marginTop' >
                  <div>
-                 <button className='btn btn-outline-success p-3'>
+                 <button className='btn btn-outline-success '>
                     <span className=' fs-3 fw-bold'>3</span> Months+ <br/> - Experience
                   </button>
-                  <button className='btn btn-outline-success ms-3 p-3'>
+                  <button className='btn btn-outline-success ms-3 '>
                     <span className=' fs-3 fw-bold'>25 +</span><br/> - Completed Projects
                   </button>
                  </div>
                  <div className='mt-3'>
-                 <button className='btn btn-outline-success p-3'>
+                 <button className='btn btn-outline-success '>
                     <span className='fs-3 fw-bold'>100 + </span><br/> Connections
                   </button>
-                  <button className='btn btn-outline-success ms-3 p-3'>
+                  <button className='btn btn-outline-success ms-3'>
                     <span className=' fs-3 fw-bold'>4 + </span><br/> Ceritified Certificates
                   </button>
                  </div>
             </div>
-            <div className='p-5  h-100 socialhandle'>
+            <div className='h-100 About-marginTop socialhandle'>
             <Link onClick={twitterRedirect}>
-              <button className='btn btn-outline-success p-2 mb-5'>
+              <button className='btn btn-outline-success p-2 About-marginBottom50'>
                   <i class="bi bi-twitter-x"></i>
                 </button>
               </Link>
               <Link onClick={instaRedirect}>
-              <button className='btn btn-outline-success p-2 mb-5'>
+              <button className='btn btn-outline-success p-2 About-marginBottom50'>
                 <i class="bi bi-instagram"></i>
                 </button>
               </Link>
               <Link onClick={facebookRedirect}>
-              <button className='btn btn-outline-success p-2 mb-5 '>
+              <button className='btn btn-outline-success p-2 About-marginBottom50'>
                   <i class="bi bi-facebook"></i>
                 </button>
               </Link>
             </div>
       </div>
     </div>
-     <div className='col-md-12 p-5  d-flex flex-column justify-content-center align-items-center'> 
+     <div className='col-md-12  mt-3  d-flex flex-column justify-content-center align-items-center'> 
      <h2 className='text-success fw-bold'>My Skills</h2>
         <div className='w-75 mt-5 d-flex justify-content-between align-items-center flex-wrap' >
         <div style={{ textAlign: "center", marginLeft: "10px" }}>
@@ -462,24 +462,11 @@ const EmiCalculatorProject = () => {
             </div>          
         </div>
      </div>
-     <div className='col-md-12 p-5  d-flex flex-column justify-content-center align-items-center'>
+     <div className='col-md-12  mt-5 d-flex flex-column justify-content-center align-items-center'>
            <h2 className='text-success fw-bold'>Experience & Education</h2>
           <div className=' w-100 p-2 mt-5 homepage-experience-section '>
             <div className='col-md-6 p-2 d-flex flex-column justify-content-center align-items-between'>
-                      <div className='d-flex w-100 p-2'>
-                           <div className='d-flex flex-column justify-content-center align-items-center'>
-                                   <button className='btn btn-outline-success  rounded-5'>
-                                      <i class="bi bi-front"></i>
-                                    </button>
-                                   <div style={{height:"5vmax",width:"2px" ,opacity:"0.5"}} className='bg-secondary rounded-bottom-5'></div>
-                           </div>
-                           <div className='w-75 p-2 ms-5 d-flex flex-column justify-content-start align-items-start'>
-                                  <h6>Oct - 2023 <span className='text-success fw-bold'> Present </span> </h6>
-                                  <h5>Working as a FullStack Developer</h5>
-                                  <h6> At Digiroit technologies PVT LTD</h6>
-                                  <Link className='text-secondary text-decoration-none' onClick={websiteopenerDigiroit}><span className='text-success'>Visit - </span>https://www.digiroit.com/</Link>
-                           </div>
-                      </div>
+                     
                       <div className='d-flex w-100 p-2'>
                            <div className='d-flex flex-column justify-content-center align-items-center'>
                                    <button className='btn btn-outline-success  rounded-5'>
@@ -488,7 +475,7 @@ const EmiCalculatorProject = () => {
                                    <div style={{height:"5vmax",width:"2px" ,opacity:"0.5"}} className='bg-secondary rounded-bottom-5'></div>
                            </div>
                            <div className='w-75 p-2 ms-5 d-flex flex-column justify-content-start align-items-start'>
-                                  <h6>Aug - 2023<span className='text-success fw-bold'> Till </span> Oct - 2023 </h6>
+                                  <h6>Aug - 2023<span className='text-success fw-bold'> Till </span> November - 2023 </h6>
                                   <h5>Working as a FullStack Developer trainee ( Paid ) </h5>
                                   <h6> At Digiroit technologies PVT LTD</h6>
                                   <Link className='text-secondary text-decoration-none' onClick={websiteopenerDigiroit}><span className='text-success'>Visit - </span>https://www.digiroit.com/</Link>
@@ -544,7 +531,7 @@ const EmiCalculatorProject = () => {
             </div>      
           </div>            
      </div>
-     <div className='col-md-12 p-5  d-flex flex-column justify-content-center align-items-center'>
+     <div className='col-md-12   d-flex flex-column justify-content-center align-items-center'>
        <h2 className='text-success fw-bold'>Projects</h2>
          <div className='cd-md-12 p-5 d-flex flex-wrap align-item-center justify-content-center'>
              <button onClick={grhamstaysProject} className='btn btn-light mt-4 mx-2 p-3 d-flex justify-content-center align-items-center'>
@@ -621,7 +608,7 @@ const EmiCalculatorProject = () => {
               </button>
           </div>  
      </div>
-     <div className='col-md-12 p-5 d-flex flex-column justify-content-center align-items-center'>
+     <div className='col-md-12  d-flex flex-column justify-content-center align-items-center'>
        <h2 className='text-success fw-bold'>Certified Certificates</h2>
          <div className='cd-md-12 p-5 d-flex flex-wrap align-item-center justify-content-center'>
              <button onClick={MernCertificate} className='btn btn-light mt-4 mx-2 p-3 d-flex justify-content-center align-items-center'>

@@ -172,6 +172,10 @@ html,body{
   margin-right: 30px;
 }
 
+.About-marginBottom50{
+  margin-bottom: 20px;
+}
+
 
 
 
@@ -401,6 +405,10 @@ transform: scale(1.1);
     display: flex;
     flex-direction: column;
   }
+  .col-md-11{
+    display: flex;
+    flex-direction: column;
+  }
   .socialhandle{
     display: flex;
     align-items: center;
@@ -479,6 +487,10 @@ transform: scale(1.1);
 }
 .grhamstaysdiv{
   display: none;
+}
+
+.About-marginBottom50{
+  margin-bottom: 0px;
 }
 
 

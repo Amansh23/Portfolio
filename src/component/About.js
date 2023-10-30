@@ -25,7 +25,7 @@ const About = () => {
                 </p>
               </div>
               <div className='rectangle p-2 bg-white shadow'>
-              <img className=' rounded-2' src='https://i.pinimg.com/564x/b4/b5/89/b4b5896538117f24c5fae6315fcea3f1.jpg' alt='Mern'></img>
+              <img className=' rounded-2' src='/techcover.jpg' alt='Mern'></img>
               </div>
          </div>
        </div>
@@ -58,7 +58,7 @@ const About = () => {
        <div className='col-md-12 mt-5 p-5 d-flex flex-column align-items-center justify-content-between'>
          <div className='  About-divided-section'>
               <div className='rectangle shadow'>
-                <img src='https://i.pinimg.com/564x/58/58/36/58583664f9aa0c6fa6f75087b76a6c86.jpg' alt=''></img>
+                <img src='/boycover.jpg' alt=''></img>
               </div>
               <div className='About-para-section About-marginTop'>
                 <h3 className='text-success'>Part-Time Freelancer</h3>
